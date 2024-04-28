@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+               .content  {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    .content {
+      padding: 0 10px;
+    }
+    
+    .content {
+      color: #fff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    
+    .content:hover {
+    font-weight: bolder;
+        font-family:cursive;
+        color:rgb(255, 0, 0);
+      background-color: #080707;
+    
+    }
+        body {
+	margin: 0;
+	padding: 0;
+    background-color: #FFE4B5;
+}
+
+    </style>
+</head>
+<body>
+    <div style=" display: flex;background-color:#080807;justify-content: space-between; align-items: center;
+    color:aliceblue; flex-wrap: wrap;">
+        <div id=" navstart" style=" flex-grow:1">
+            <img id=" navlogo" src="navlogo.png" width="250px">
+
+        </div>
+
+        <nav id=" navcenter" style=" flex-grow:1">
+            <ul style=" font-size: 30px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+              <a href="Home.html" target="_self">
+                <li class="content" style=" display:inline-block;gap:20px; cursor: pointer; margin-left: 50px;">Home</li></a>
+                <a href=" Details.html" target="_self">
+                <li class="content" style=" display:inline-block;cursor: pointer;">Details</li></a>
+            
+                <a href="Contact.html" target="_self">
+                <li class="content"style=" display:inline-block;cursor: pointer;">Contact</li>
+                </a>
+
+
+            
+            </ul>
+        </nav>
+
+        <div id=" navend" style=" flex-grow:1">
+            <svg style=" margin-left:150px" width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g clip-path="url(#clip0_429_11066)"> <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_429_11066"> <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"></rect> </clipPath> </defs> </g></svg>
+
+        </div>
+    </div>
+    <p style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: bold;color:red; text-align: center;"> Enter Your Requirements Sooner For Beeter Results </p>
+    <center>
+        
+    <form style="display: inline-block;">
+            <table>
+
+                <tr> 
+                    <td>Name:</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" size="30" required></td>
+                    <td></td>
+                </tr>
+
+                <tr> 
+                    <td>Sex:</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <select>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr> 
+                    <td>Your Requirement:</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><select>
+                        <option value="Donation">Blood Group Donation</option>
+                        <option value="DonarSearch">Search For Donors</option>
+                    </select></td>
+                    <td></td>
+                </tr>
+
+                <tr> 
+                    <td>Your Blood Group</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><select style="width:200px">
+                        <option value="Dont know">Dont know</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                    </select></td>
+                    <td></td>
+                </tr>
+
+                <tr> 
+                    <td>Blood Group You Seek</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><select style="width:200px">
+                        <option  value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                    </select></td>
+                    <td></td>
+                </tr>
+<tr>
+    <td>Age:</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td><input type="number" required></td>
+    <td></td>
+</tr>
+<tr>
+    <td>District:</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td><select style="width:200px">
+        <option value="Chennai">Chennai</option>
+    </select></td>
+    <td></td>
+</tr>
+            </table>
+            <br>
+<a href="Details2.html">
+            <input type="submit" value="Submit" >-</a>
+<input type="reset">
+<p>Note For now The donors and our connections are limited to only chennai and its hospitals<br>in the coming future we will Establish connections throughout the state and India</p>
+        </form>
+    </center>
+
+  
+</body>
+</html>
